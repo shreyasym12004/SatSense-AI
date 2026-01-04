@@ -1,4 +1,5 @@
 AI-Driven Satellite Signal Detection & Mitigation
+
 📡 Overview
 This project provides an automated system for identifying and cleaning interference in satellite communications. It uses a 1D-Convolutional Neural Network (1D-CNN) to classify raw IQ signals into four distinct states: Clean BPSK, Clean QPSK, High Noise, and Jamming.
 When jamming is detected, the system automatically triggers a digital Notch Filter to remove the interference and restore the link quality, as measured by the Bit Error Rate (BER).
